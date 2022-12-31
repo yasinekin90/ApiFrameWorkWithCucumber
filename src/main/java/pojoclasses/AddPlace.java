@@ -1,4 +1,4 @@
-package serialization.pojo;
+package pojoclasses;
 
 import java.util.List;
 

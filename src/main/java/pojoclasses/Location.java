@@ -1,4 +1,4 @@
-package serialization.pojo;
+package pojoclasses;
 
 public class Location {
     private double lat;

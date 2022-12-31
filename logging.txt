@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 63,
+    "name": "Mahmut",
+    "phone_number": "1233346483",
+    "address": "istanbul/basaksehir",
+    "website": "www.xyz.com",
+    "language": "english",
+    "location": {
+        "lat": -38.2535,
+        "lng": 63.456
+    },
+    "types": [
+        "shoe park",
+        "shop",
+        "shake"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 31 Dec 2022 09:36:29 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "7475a135bba7eb1391e9ca762aea5a26",
+    "scope": "APP",
+    "reference": "340717eea8180ab730e29291d5dffe98340717eea8180ab730e29291d5dffe98",
+    "id": "340717eea8180ab730e29291d5dffe98"
+}
