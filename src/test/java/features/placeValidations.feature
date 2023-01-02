@@ -8,7 +8,7 @@ Feature: Validating Place API's
     And "scope" in response body is "APP"
     And verify place_Id created that points to "<name>" using "getPlaceAPI"
 
-    Examples:
+   Examples:
       | name    | language | address       |
       | george  | french   | crossAVM      |
       #| Michael | spanish  | newyorkcenter |

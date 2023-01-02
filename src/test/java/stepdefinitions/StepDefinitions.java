@@ -1,24 +1,15 @@
 package stepdefinitions;
-
 import apis.APIResources;
 import io.cucumber.java.en.*;
-
-
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
-
 import io.restassured.response.Response;
-
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-
 import resources.TestDataBuild;
 import resources.Utilities;
-
-
 import java.io.IOException;
-
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.junit.Assert.assertEquals;
 
 public class StepDefinitions extends Utilities {
